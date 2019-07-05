@@ -2,8 +2,6 @@
 
 Hi! Just started using LeetCode so I'll try to upload my LeetCode solutions here every week.
 
----
-
 ### Let's Code Together!
 
 Contributions are always welcome! :)
