@@ -1,0 +1,13 @@
+{
+  "name": "managementconsole",
+  "version": "1.0.0",
+  "description": "Management Console for TaskOut",
+  "author": "Jerico <jerico.indigo@gmail.com>",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
