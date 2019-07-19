@@ -19,4 +19,23 @@
  * All given inputs are in lowercase letters a-z.
  */
 
- 
+/**
+ * @param {string[]} strs
+ * @return {string}
+ */
+let longestCommonPrefix = (strs) => {
+   let prefix = "", count = 0;
+   if (strs.length) {
+       for (let i=0; i<strs[0].length; i++) {
+           count = 0;
+           for (let j=1; j<strs.length; j++) {
+               if (strs[j][i] == strs[0][i]) count++;
+               else break;
+           }
+           if (count == strs.length - 1) prefix += strs[0][i];
+           else break;
+       }        
+   } 
+    
+   return prefix;
+};
