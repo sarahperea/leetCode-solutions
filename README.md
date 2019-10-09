@@ -10,3 +10,5 @@ Contributions are always welcome! :)
 - Feel free to make a pull request if you want your solutions to be included here. (awesomeeee!)
 
 Cheers w/ love!
+
+Note that **all problems solved here are owned by LeetCode**.
